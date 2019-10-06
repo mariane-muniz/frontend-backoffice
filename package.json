@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod",
+    "preinstall": "npm install -g node-gyp",
     "heroku-postbuild": "ng build"
   },
   "private": true,
@@ -45,5 +45,5 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  },
+  }
 }
