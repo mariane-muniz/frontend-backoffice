@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod",
+    "heroku-postbuild": "ng build"
   },
   "private": true,
   "dependencies": {
@@ -44,5 +46,4 @@
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
   },
-  "postinstall": "ng build --aot -prod"
 }
