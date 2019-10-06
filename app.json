@@ -1,0 +1,18 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/sprettur.tgz"
+    }
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "frontend-backoffice",
+  "scripts": {
+  },
+  "stack": "heroku-18-build"
+}
